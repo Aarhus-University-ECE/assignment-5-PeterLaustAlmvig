@@ -14,15 +14,17 @@ void fiveCircles(circle c[]) {
 int circleIsValid(const circle * c) {
 /*post: answer to exercise 6.c*/
 	if(c->r > 0){
-		return 0;
+		return 1;
 	}
 	else{
-		return 1;
+		return 0;
 	}
 }
 
 void translate(circle* c, const point* p) {
 /*ansver to exercise 6.d*/
+	c->p.x = p->x;
+	c->p.y = p->y;
 }
 
 

@@ -5,9 +5,9 @@
 void fiveCircles(circle c[]) {
 /*post: returns an array with five circles - solution to 6.b*/
 	for(int i = 1; i <= 5; i++){
-		c->p.x = i;
-		c->p.y = i;
-		c->r = i;
+		c[i].p.x = i;
+		c[i].p.y = i;
+		c[i].r = i;
 	}
 }
 

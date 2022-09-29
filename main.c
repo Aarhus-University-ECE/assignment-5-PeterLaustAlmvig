@@ -38,7 +38,7 @@ int main(void) {
 
 	/*readin the n numbers in the array numbers*/
 
-	if (isJollyJumber(numbers, n)) {
+	if(isJollyJumber(numbers, n)) {
 		printf("it is a Jolly Jumper\n");}
 	else {
 		printf("not a Jolly Jumper\n");}

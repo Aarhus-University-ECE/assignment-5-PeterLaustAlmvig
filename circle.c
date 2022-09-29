@@ -4,15 +4,20 @@
 
 void fiveCircles(circle c[]) {
 /*post: returns an array with five circles - solution to 6.b*/
+	for(int i = 1; i <= 5; i++){
+		c->p.x = i;
+		c->p.y = i;
+		c->r = i;
+	}
 }
 
 int circleIsValid(const circle * c) {
 /*post: answer to exercise 6.c*/
-	return 0
+	return 0;
 }
 
 void translate(circle* c, const point* p) {
-/*ansver to exercise 6.d
+/*ansver to exercise 6.d*/
 }
 
 

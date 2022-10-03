@@ -26,17 +26,15 @@ int main(void) {
 	/*answer to exercise 7.b*/
 	int n; /*number of numbers to read*/
 	/*readin n and check that is is OK*/
-	//n = 4;
 	scanf("%d", &n);
 	assert(0 < n);
 	
 	int *numbers = malloc(sizeof(int) * n); /*the numbers read*/
 
+	/*readin the n numbers in the array numbers*/
 	for(int i = 0; i < n; i++){
 		scanf("%d", &numbers[i]);
 	}
-
-	/*readin the n numbers in the array numbers*/
 
 	if(isJollyJumber(numbers, n)) {
 		printf("it is a Jolly Jumper\n");}
